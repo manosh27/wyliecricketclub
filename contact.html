@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Wylie Cricket Club for membership inquiries, coaching information, or general questions. We'd love to hear from you!">
+    <title>Contact Us - Wylie Cricket Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Wylie Cricket Club</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link">News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="players.html" class="nav-link">Players</a>
+                </li>
+                <li class="nav-item">
+                    <a href="schedule.html" class="nav-link">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a href="league.html" class="nav-link">League</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="discussions.html" class="nav-link">Discussions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Contact Info Section -->
+            <section class="contact-info">
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email Us</h3>
+                        <p>info@wyliecricketclub.com</p>
+                        <p>membership@wyliecricketclub.com</p>
+                        <p>coaching@wyliecricketclub.com</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h3>Call Us</h3>
+                        <p>Main Office: (972) 555-0123</p>
+                        <p>Coaching: (972) 555-0124</p>
+                        <p>Events: (972) 555-0125</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h3>Visit Us</h3>
+                        <p>Wylie Cricket Ground</p>
+                        <p>123 Sports Lane</p>
+                        <p>Wylie, TX 75098</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">🕐</div>
+                        <h3>Office Hours</h3>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        <p>Saturday: 8:00 AM - 4:00 PM</p>
+                        <p>Sunday: 10:00 AM - 2:00 PM</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Form and Map Section -->
+            <section class="contact-form-section">
+                <div class="contact-content">
+                    <div class="form-container">
+                        <h2>Send Us a Message</h2>
+                        <p>Have a question or want to join our cricket community? We'd love to hear from you!</p>
+                        
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Full Name *</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Subject *</label>
+                                    <select id="subject" name="subject" required>
+                                        <option value="">Select a subject</option>
+                                        <option value="membership">Membership Inquiry</option>
+                                        <option value="coaching">Coaching Information</option>
+                                        <option value="youth">Youth Programs</option>
+                                        <option value="events">Events & Tournaments</option>
+                                        <option value="facilities">Facilities Rental</option>
+                                        <option value="sponsorship">Sponsorship Opportunities</option>
+                                        <option value="general">General Information</option>
+                                        <option value="feedback">Feedback</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="experience">Cricket Experience</label>
+                                <select id="experience" name="experience">
+                                    <option value="">Select your experience level</option>
+                                    <option value="beginner">Beginner (New to cricket)</option>
+                                    <option value="recreational">Recreational (Casual player)</option>
+                                    <option value="intermediate">Intermediate (Some experience)</option>
+                                    <option value="advanced">Advanced (Experienced player)</option>
+                                    <option value="professional">Professional/Former professional</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="age-group">Age Group</label>
+                                <select id="age-group" name="age-group">
+                                    <option value="">Select age group</option>
+                                    <option value="under-12">Under 12</option>
+                                    <option value="12-17">12-17 years</option>
+                                    <option value="18-25">18-25 years</option>
+                                    <option value="26-35">26-35 years</option>
+                                    <option value="36-45">36-45 years</option>
+                                    <option value="46-55">46-55 years</option>
+                                    <option value="over-55">Over 55</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="6" placeholder="Tell us more about your inquiry, interests, or how we can help you..." required></textarea>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter">
+                                    <span class="checkbox-custom"></span>
+                                    Subscribe to our newsletter for updates and announcements
+                                </label>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="privacy" name="privacy" required>
+                                    <span class="checkbox-custom"></span>
+                                    I agree to the privacy policy and terms of service *
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                        </form>
+                    </div>
+
+                    <div class="map-container">
+                        <h2>Find Us</h2>
+                        <div class="map-placeholder">
+                            <div class="map-content">
+                                <div class="map-icon">📍</div>
+                                <h3>Wylie Cricket Ground</h3>
+                                <p>123 Sports Lane<br>Wylie, TX 75098</p>
+                                <div class="map-directions">
+                                    <a href="https://maps.google.com/?q=Wylie,TX" target="_blank" class="btn btn-secondary">Get Directions</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="directions-info">
+                            <h3>Directions</h3>
+                            <ul>
+                                <li><strong>From Dallas:</strong> Take I-75 North to Exit 40, turn right on Parker Road</li>
+                                <li><strong>From Plano:</strong> Take Parker Road East for 8 miles</li>
+                                <li><strong>From McKinney:</strong> Take Louisiana Street South to Parker Road</li>
+                                <li><strong>Public Transit:</strong> DART Bus Route 408 stops nearby</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section class="faq-section">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>How do I join the club?</h3>
+                        <p>Contact us via the form above or visit our ground during practice sessions. We welcome players of all skill levels and offer trial sessions for new members.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>What are the membership fees?</h3>
+                        <p>Annual membership is $150 for adults, $75 for students/seniors, and $50 for youth (under 18). This includes access to all facilities and coaching sessions.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Do you provide equipment?</h3>
+                        <p>We have basic equipment available for beginners, but regular players are encouraged to have their own gear. Our pro shop offers equipment at discounted prices for members.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>When are practice sessions?</h3>
+                        <p>Regular practice sessions are held Tuesday and Thursday evenings (6-8 PM) for seniors, and Saturday mornings (9 AM-12 PM) for youth programs.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Can beginners join?</h3>
+                        <p>Absolutely! We have dedicated programs for beginners with professional coaching. Our friendly community welcomes players who are new to cricket.</p>
+                    </div>
+
+                    <div class="faq-item">
+                        <h3>Do you have women's cricket?</h3>
+                        <p>Yes! We have an active women's team that competes in the regional league. Practice sessions are held on Saturday mornings (9-11 AM).</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Team Contacts -->
+            <section class="team-contacts">
+                <h2>Key Contacts</h2>
+                <div class="contacts-grid">
+                    <div class="contact-person">
+                        <div class="person-image">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Raj Patel" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h3>Raj Patel</h3>
+                            <div class="person-role">Club President & Captain</div>
+                            <div class="person-contact">
+                                <p>📧 president@wyliecricketclub.com</p>
+                                <p>📞 (972) 555-0130</p>
+                            </div>
+                            <p>Contact for general club matters, membership, and team selection.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-person">
+                        <div class="person-image">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Michael Thompson" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h3>Michael Thompson</h3>
+                            <div class="person-role">Head Coach</div>
+                            <div class="person-contact">
+                                <p>📧 coach@wyliecricketclub.com</p>
+                                <p>📞 (972) 555-0131</p>
+                            </div>
+                            <p>Contact for coaching inquiries, training programs, and skill development.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-person">
+                        <div class="person-image">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616c04ba8fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Priya Sharma" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h3>Priya Sharma</h3>
+                            <div class="person-role">Women's Team Captain</div>
+                            <div class="person-contact">
+                                <p>📧 womens@wyliecricketclub.com</p>
+                                <p>📞 (972) 555-0132</p>
+                            </div>
+                            <p>Contact for women's cricket programs and ladies team information.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-person">
+                        <div class="person-image">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Sarah Martinez" loading="lazy">
+                        </div>
+                        <div class="person-info">
+                            <h3>Sarah Martinez</h3>
+                            <div class="person-role">Youth Development Coordinator</div>
+                            <div class="person-contact">
+                                <p>📧 youth@wyliecricketclub.com</p>
+                                <p>📞 (972) 555-0133</p>
+                            </div>
+                            <p>Contact for youth programs, junior cricket, and child development activities.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Wylie Cricket Club</h3>
+                    <p>Building cricket excellence in Wylie, Texas since 2015.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="news.html">Latest News</a></li>
+                        <li><a href="schedule.html">Match Schedule</a></li>
+                        <li><a href="players.html">Players</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 info@wyliecricketclub.com</p>
+                    <p>📞 (972) 555-0123</p>
+                    <p>📍 Wylie Cricket Ground<br>123 Sports Lane, Wylie, TX 75098</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wylie Cricket Club. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <style>
+        .contact-info {
+            margin-bottom: 4rem;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .contact-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .contact-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact-card h3 {
+            color: #1a4d2e;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .contact-card p {
+            color: #666;
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+
+        .contact-form-section {
+            margin-bottom: 4rem;
+        }
+
+        .contact-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 4rem;
+        }
+
+        .form-container h2,
+        .map-container h2 {
+            color: #1a4d2e;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            font-size: 2rem;
+        }
+
+        .form-container p {
+            color: #666;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .contact-form {
+            background: white;
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .checkbox-label {
+            display: flex;
+            align-items: flex-start;
+            cursor: pointer;
+            line-height: 1.5;
+            color: #666;
+        }
+
+        .checkbox-label input[type="checkbox"] {
+            position: absolute;
+            opacity: 0;
+        }
+
+        .checkbox-custom {
+            width: 20px;
+            height: 20px;
+            border: 2px solid #ddd;
+            border-radius: 3px;
+            margin-right: 0.8rem;
+            margin-top: 2px;
+            flex-shrink: 0;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .checkbox-label input[type="checkbox"]:checked + .checkbox-custom {
+            background: #4CAF50;
+            border-color: #4CAF50;
+        }
+
+        .checkbox-label input[type="checkbox"]:checked + .checkbox-custom::after {
+            content: '✓';
+            color: white;
+            font-size: 14px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .btn-large {
+            padding: 15px 40px;
+            font-size: 1.1rem;
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .map-container {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            height: fit-content;
+        }
+
+        .map-placeholder {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 3rem 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            border: 2px dashed #ddd;
+        }
+
+        .map-content .map-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .map-content h3 {
+            color: #1a4d2e;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .map-content p {
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .map-directions {
+            margin-top: 1rem;
+        }
+
+        .directions-info h3 {
+            color: #1a4d2e;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .directions-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .directions-info li {
+            color: #666;
+            margin-bottom: 0.8rem;
+            line-height: 1.6;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .directions-info li::before {
+            content: '→';
+            color: #4CAF50;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .faq-section {
+            margin-bottom: 4rem;
+        }
+
+        .faq-section h2 {
+            color: #1a4d2e;
+            margin-bottom: 3rem;
+            font-weight: 600;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .faq-item {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-left: 4px solid #4CAF50;
+        }
+
+        .faq-item h3 {
+            color: #1a4d2e;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .faq-item p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .team-contacts h2 {
+            color: #1a4d2e;
+            margin-bottom: 3rem;
+            font-weight: 600;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        .contacts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .contact-person {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .contact-person:hover {
+            transform: translateY(-3px);
+        }
+
+        .person-image {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .person-image img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #4CAF50;
+        }
+
+        .person-info h3 {
+            color: #1a4d2e;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .person-role {
+            color: #4CAF50;
+            font-weight: 500;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .person-contact {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .person-contact p {
+            color: #666;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .person-info > p {
+            color: #666;
+            line-height: 1.6;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        @media screen and (max-width: 768px) {
+            .contact-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+                gap: 0;
+            }
+
+            .contact-form {
+                padding: 2rem;
+            }
+
+            .map-container {
+                padding: 1.5rem;
+            }
+
+            .contact-grid,
+            .faq-grid,
+            .contacts-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>

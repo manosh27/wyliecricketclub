@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join the Wylie Cricket Club community discussions. Share your thoughts, ask questions, and connect with fellow cricket enthusiasts.">
+    <title>Community Discussions - Wylie Cricket Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Wylie Cricket Club</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link">News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="players.html" class="nav-link">Players</a>
+                </li>
+                <li class="nav-item">
+                    <a href="schedule.html" class="nav-link">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a href="league.html" class="nav-link">League</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="discussions.html" class="nav-link active">Discussions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Community Discussions</h1>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Discussion Guidelines -->
+            <section class="discussion-guidelines">
+                <div class="guidelines-content">
+                    <h2>💬 Join the Conversation</h2>
+                    <p>Welcome to our community forum! Share your cricket experiences, ask questions, discuss matches, and connect with fellow members.</p>
+                    <div class="guidelines-rules">
+                        <div class="rule">✅ Be respectful and supportive</div>
+                        <div class="rule">✅ Stay cricket-focused</div>
+                        <div class="rule">✅ Share knowledge and experiences</div>
+                        <div class="rule">❌ No spam or inappropriate content</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- New Discussion Form -->
+            <section class="new-discussion">
+                <h2>Start a New Discussion</h2>
+                <form id="discussion-form" class="discussion-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="discussion-name">Your Name *</label>
+                            <input type="text" id="discussion-name" required placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="discussion-topic">Discussion Topic *</label>
+                            <input type="text" id="discussion-topic" required placeholder="What would you like to discuss?">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="discussion-content">Your Message *</label>
+                        <textarea id="discussion-content" rows="4" required placeholder="Share your thoughts, questions, or experiences..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Post Discussion</button>
+                </form>
+            </section>
+
+            <!-- Existing Discussions -->
+            <section class="discussions-section">
+                <h2>Recent Discussions</h2>
+                <div id="discussions-list" class="discussions-list">
+                    <!-- Pre-loaded discussions -->
+                    <div class="discussion-item">
+                        <div class="discussion-header">
+                            <h4>Best batting techniques for beginners?</h4>
+                            <div class="discussion-meta">
+                                <span class="discussion-author">By Kevin Thompson</span>
+                                <span class="discussion-date">December 14, 2024</span>
+                            </div>
+                        </div>
+                        <div class="discussion-content">
+                            <p>I'm new to cricket and want to improve my batting. What are the fundamental techniques I should focus on first? Any tips from experienced players would be greatly appreciated!</p>
+                        </div>
+                        <div class="discussion-actions">
+                            <button class="btn-reply" onclick="showReplyForm(this)">Reply</button>
+                        </div>
+                        <div class="replies-container">
+                            <div class="reply-item">
+                                <div class="reply-header">
+                                    <span class="reply-author">Michael Thompson</span>
+                                    <span class="reply-date">December 14, 2024</span>
+                                </div>
+                                <div class="reply-content">
+                                    <p>Great question! Start with your stance - feet shoulder-width apart, knees slightly bent. Focus on watching the ball closely and keeping your head still. Practice your forward and back defensive shots first before moving to attacking strokes.</p>
+                                </div>
+                            </div>
+                            <div class="reply-item">
+                                <div class="reply-header">
+                                    <span class="reply-author">Raj Patel</span>
+                                    <span class="reply-date">December 14, 2024</span>
+                                </div>
+                                <div class="reply-content">
+                                    <p>I'd also recommend practicing in the nets regularly. Join our Tuesday evening practice sessions - we have coaches who can help you with the basics. The key is consistent practice and patience!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="discussion-item">
+                        <div class="discussion-header">
+                            <h4>Thoughts on our championship victory?</h4>
+                            <div class="discussion-meta">
+                                <span class="discussion-author">By Sarah Martinez</span>
+                                <span class="discussion-date">December 12, 2024</span>
+                            </div>
+                        </div>
+                        <div class="discussion-content">
+                            <p>What an incredible season! Our team's performance in the finals was outstanding. Raj's batting and Ahmed's bowling were phenomenal. Looking forward to defending the title next year!</p>
+                        </div>
+                        <div class="discussion-actions">
+                            <button class="btn-reply" onclick="showReplyForm(this)">Reply</button>
+                        </div>
+                        <div class="replies-container">
+                            <div class="reply-item">
+                                <div class="reply-header">
+                                    <span class="reply-author">Ahmed Khan</span>
+                                    <span class="reply-date">December 12, 2024</span>
+                                </div>
+                                <div class="reply-content">
+                                    <p>Thank you! It was a team effort all the way. The fielding was crucial in that final - those catches made the difference. Can't wait for next season!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="discussion-item">
+                        <div class="discussion-header">
+                            <h4>Youth cricket program expansion ideas</h4>
+                            <div class="discussion-meta">
+                                <span class="discussion-author">By Priya Sharma</span>
+                                <span class="discussion-date">December 10, 2024</span>
+                            </div>
+                        </div>
+                        <div class="discussion-content">
+                            <p>I'd love to hear ideas for expanding our youth cricket program. We've had great success this year, but how can we reach more kids in the community? Should we consider school partnerships or community outreach events?</p>
+                        </div>
+                        <div class="discussion-actions">
+                            <button class="btn-reply" onclick="showReplyForm(this)">Reply</button>
+                        </div>
+                        <div class="replies-container">
+                            <div class="reply-item">
+                                <div class="reply-header">
+                                    <span class="reply-author">David Rodriguez</span>
+                                    <span class="reply-date">December 10, 2024</span>
+                                </div>
+                                <div class="reply-content">
+                                    <p>School partnerships would be fantastic! Maybe we could do cricket demonstrations at local elementary schools? Kids love interactive sports demos.</p>
+                                </div>
+                            </div>
+                            <div class="reply-item">
+                                <div class="reply-header">
+                                    <span class="reply-author">Emma Wilson</span>
+                                    <span class="reply-date">December 11, 2024</span>
+                                </div>
+                                <div class="reply-content">
+                                    <p>What about a summer cricket camp? We could offer week-long programs during school holidays. I'd be happy to help organize activities for younger kids.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="discussion-item">
+                        <div class="discussion-header">
+                            <h4>Equipment recommendations for new players</h4>
+                            <div class="discussion-meta">
+                                <span class="discussion-author">By Marcus Johnson</span>
+                                <span class="discussion-date">December 8, 2024</span>
+                            </div>
+                        </div>
+                        <div class="discussion-content">
+                            <p>For those just starting out, what essential equipment should they invest in first? Bat, pads, gloves, helmet - what's the priority order and any brand recommendations that offer good value for money?</p>
+                        </div>
+                        <div class="discussion-actions">
+                            <button class="btn-reply" onclick="showReplyForm(this)">Reply</button>
+                        </div>
+                        <div class="replies-container">
+                            <div class="reply-item">
+                                <div class="reply-header">
+                                    <span class="reply-author">Michael Thompson</span>
+                                    <span class="reply-date">December 8, 2024</span>
+                                </div>
+                                <div class="reply-content">
+                                    <p>Safety first - helmet and pads are essential. A decent bat doesn't have to be expensive for beginners. Gray-Nicolls and Kookaburra offer good entry-level options. Our pro shop has some great deals for members!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="discussion-item">
+                        <div class="discussion-header">
+                            <h4>Fitness and conditioning for cricket</h4>
+                            <div class="discussion-meta">
+                                <span class="discussion-author">By Jake Smith</span>
+                                <span class="discussion-date">December 5, 2024</span>
+                            </div>
+                        </div>
+                        <div class="discussion-content">
+                            <p>What fitness routines do you all follow during the off-season? Looking to improve my stamina and agility for next year. Any specific exercises that have helped your cricket performance?</p>
+                        </div>
+                        <div class="discussion-actions">
+                            <button class="btn-reply" onclick="showReplyForm(this)">Reply</button>
+                        </div>
+                        <div class="replies-container"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Discussion Categories -->
+            <section class="discussion-categories">
+                <h2>Popular Discussion Topics</h2>
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <div class="category-icon">🏏</div>
+                        <h3>Technique & Skills</h3>
+                        <p>Batting, bowling, and fielding tips from experienced players</p>
+                        <div class="category-stats">12 discussions</div>
+                    </div>
+
+                    <div class="category-card">
+                        <div class="category-icon">🏆</div>
+                        <h3>Match Analysis</h3>
+                        <p>Discuss recent matches, strategies, and performance analysis</p>
+                        <div class="category-stats">8 discussions</div>
+                    </div>
+
+                    <div class="category-card">
+                        <div class="category-icon">⚡</div>
+                        <h3>Fitness & Training</h3>
+                        <p>Share workout routines and conditioning tips for cricket</p>
+                        <div class="category-stats">6 discussions</div>
+                    </div>
+
+                    <div class="category-card">
+                        <div class="category-icon">🛒</div>
+                        <h3>Equipment & Gear</h3>
+                        <p>Reviews and recommendations for cricket equipment</p>
+                        <div class="category-stats">9 discussions</div>
+                    </div>
+
+                    <div class="category-card">
+                        <div class="category-icon">👥</div>
+                        <h3>Club Activities</h3>
+                        <p>Events, social gatherings, and club announcements</p>
+                        <div class="category-stats">15 discussions</div>
+                    </div>
+
+                    <div class="category-card">
+                        <div class="category-icon">🌟</div>
+                        <h3>New Members</h3>
+                        <p>Welcome area for new players and introductions</p>
+                        <div class="category-stats">7 discussions</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Wylie Cricket Club</h3>
+                    <p>Building cricket excellence in Wylie, Texas since 2015.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="news.html">Latest News</a></li>
+                        <li><a href="schedule.html">Match Schedule</a></li>
+                        <li><a href="players.html">Players</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 info@wyliecricketclub.com</p>
+                    <p>📞 (972) 555-0123</p>
+                    <p>📍 Wylie Cricket Ground<br>123 Sports Lane, Wylie, TX 75098</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wylie Cricket Club. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <style>
+        .discussion-guidelines {
+            background: linear-gradient(135deg, #4CAF50, #1a4d2e);
+            color: white;
+            padding: 3rem 2rem;
+            border-radius: 15px;
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        .guidelines-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .guidelines-content p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .guidelines-rules {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .rule {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            font-weight: 500;
+            backdrop-filter: blur(10px);
+        }
+
+        .new-discussion {
+            margin-bottom: 4rem;
+        }
+
+        .new-discussion h2 {
+            color: #1a4d2e;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            font-size: 2rem;
+        }
+
+        .discussion-form {
+            background: white;
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .discussions-section h2 {
+            color: #1a4d2e;
+            margin-bottom: 2rem;
+            font-weight: 600;
+            font-size: 2rem;
+        }
+
+        .discussions-list {
+            margin-bottom: 4rem;
+        }
+
+        .discussion-item {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-left: 4px solid #4CAF50;
+        }
+
+        .discussion-header {
+            margin-bottom: 1rem;
+        }
+
+        .discussion-header h4 {
+            color: #1a4d2e;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            font-size: 1.3rem;
+        }
+
+        .discussion-meta {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .discussion-author {
+            font-weight: 500;
+            color: #4CAF50;
+        }
+
+        .discussion-content {
+            margin-bottom: 1.5rem;
+        }
+
+        .discussion-content p {
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .discussion-actions {
+            margin-bottom: 1rem;
+        }
+
+        .btn-reply {
+            background: #f8f9fa;
+            border: 1px solid #ddd;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            color: #4CAF50;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .btn-reply:hover {
+            background: #4CAF50;
+            color: white;
+            border-color: #4CAF50;
+        }
+
+        .replies-container {
+            border-top: 1px solid #eee;
+            padding-top: 1rem;
+        }
+
+        .reply-item {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            margin-left: 2rem;
+            border-left: 3px solid #4CAF50;
+        }
+
+        .reply-header {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 0.8rem;
+            font-size: 0.85rem;
+        }
+
+        .reply-author {
+            font-weight: 500;
+            color: #4CAF50;
+        }
+
+        .reply-date {
+            color: #666;
+        }
+
+        .reply-content p {
+            color: #666;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .reply-form {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 1rem 0 1rem 2rem;
+            border-left: 3px solid #4CAF50;
+        }
+
+        .reply-form .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .reply-form input,
+        .reply-form textarea {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+
+        .reply-form .form-actions {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .reply-form .btn {
+            padding: 0.5rem 1rem;
+            font-size: 0.9rem;
+        }
+
+        .discussion-categories h2 {
+            color: #1a4d2e;
+            margin-bottom: 3rem;
+            font-weight: 600;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .category-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            border-top: 4px solid #4CAF50;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .category-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .category-card h3 {
+            color: #1a4d2e;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .category-card p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .category-stats {
+            color: #4CAF50;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        @media screen and (max-width: 768px) {
+            .guidelines-content h2 {
+                font-size: 2rem;
+            }
+
+            .guidelines-rules {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .discussion-form {
+                padding: 2rem;
+            }
+
+            .reply-item,
+            .reply-form {
+                margin-left: 0;
+            }
+
+            .categories-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .discussion-meta {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .reply-form .form-actions {
+                flex-direction: column;
+            }
+        }
+    </style>
+</body>
+</html>
