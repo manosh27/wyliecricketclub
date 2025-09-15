@@ -1,0 +1,33 @@
+# GitHub Pages Configuration
+# This file helps GitHub Pages optimize the site
+
+# Plugins (GitHub Pages safe plugins only)
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Site settings for SEO
+title: "Wylie Cricket Club"
+description: "Premier cricket club in Wylie, Texas. Join us for matches, training, and community cricket activities."
+url: "https://wyliecricketclub.com"
+baseurl: ""
+
+# SEO and metadata
+author: "Wylie Cricket Club"
+lang: "en"
+
+# GitHub Pages settings
+include:
+  - "_pages"
+  - "css"
+  - "js"
+  - "images"
+
+exclude:
+  - "README.md"
+  - "DEPLOYMENT.md"
+  - ".gitignore"
+  - ".github"
+  - "node_modules"
+  - "*.tmp"
+  - "*.log"
