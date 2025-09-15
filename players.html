@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet the talented players of Wylie Cricket Club. View player profiles, statistics, and achievements.">
+    <title>Players - Wylie Cricket Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Wylie Cricket Club</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="news.html" class="nav-link">News</a>
+                </li>
+                <li class="nav-item">
+                    <a href="players.html" class="nav-link active">Players</a>
+                </li>
+                <li class="nav-item">
+                    <a href="schedule.html" class="nav-link">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a href="league.html" class="nav-link">League</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="discussions.html" class="nav-link">Discussions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Our Players</h1>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Team Filter -->
+            <div class="team-filter">
+                <button class="filter-btn active" data-team="all">All Players</button>
+                <button class="filter-btn" data-team="senior">Senior Team</button>
+                <button class="filter-btn" data-team="youth">Youth Team</button>
+                <button class="filter-btn" data-team="women">Women's Team</button>
+                <button class="filter-btn" data-team="junior">Junior Team</button>
+            </div>
+
+            <!-- Players Grid -->
+            <div class="players-grid">
+                <!-- Senior Team Players -->
+                <div class="player-card" data-team="senior">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Raj Patel" loading="lazy">
+                    </div>
+                    <div class="player-info">
+                        <h3>Raj Patel</h3>
+                        <div class="player-role">Captain / Batsman</div>
+                        <div class="player-stats">
+                            <div class="stat">
+                                <span class="stat-label">Matches:</span>
+                                <span class="stat-value">47</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Runs:</span>
+                                <span class="stat-value">2,350</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Average:</span>
+                                <span class="stat-value">49.89</span>
+                            </div>
+                        </div>
+                        <p class="player-bio">Experienced captain with excellent leadership skills. Known for his aggressive batting style and strategic mind.</p>
+                    </div>
+                </div>
+
+                <div class="player-card" data-team="senior">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Ahmed Khan" loading="lazy">
+                    </div>
+                    <div class="player-info">
+                        <h3>Ahmed Khan</h3>
+                        <div class="player-role">Fast Bowler</div>
+                        <div class="player-stats">
+                            <div class="stat">
+                                <span class="stat-label">Matches:</span>
+                                <span class="stat-value">42</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Wickets:</span>
+                                <span class="stat-value">78</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Average:</span>
+                                <span class="stat-value">18.45</span>
+                            </div>
+                        </div>
+                        <p class="player-bio">Pace spearhead with impressive swing bowling. Consistently takes wickets in crucial moments.</p>
+                    </div>
+                </div>
+
+                <div class="player-card" data-team="senior">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Marcus Johnson" loading="lazy">
+                    </div>
+                    <div class="player-info">
+                        <h3>Marcus Johnson</h3>
+                        <div class="player-role">All-Rounder</div>
+                        <div class="player-stats">
+                            <div class="stat">
+                                <span class="stat-label">Matches:</span>
+                                <span class="stat-value">39</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Runs:</span>
+                                <span class="stat-value">1,890</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Wickets:</span>
+                                <span class="stat-value">45</span>
+                            </div>
+                        </div>
+                        <p class="player-bio">Versatile all-rounder who contributes with both bat and ball. Excellent fielder and team motivator.</p>
+                    </div>
+                </div>
+
+                <div class="player-card" data-team="senior">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="David Rodriguez" loading="lazy">
+                    </div>
+                    <div class="player-info">
+                        <h3>David Rodriguez</h3>
+                        <div class="player-role">Wicket Keeper</div>
+                        <div class="player-stats">
+                            <div class="stat">
+                                <span class="stat-label">Matches:</span>
+                                <span class="stat-value">44</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Dismissals:</span>
+                                <span class="stat-value">67</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Runs:</span>
+                                <span class="stat-value">1,450</span>
+                            </div>
+                        </div>
+                        <p class="player-bio">Safe hands behind the stumps with quick reflexes. Solid middle-order batsman who can anchor innings.</p>
+                    </div>
+                </div>
+
+                <!-- Women's Team Players -->
+                <div class="player-card" data-team="women">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616c04ba8fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Priya Sharma" loading="lazy">
+                    </div>
+                    <div class="player-info">
+                        <h3>Priya Sharma</h3>
+                        <div class="player-role">Captain / Batsman</div>
+                        <div class="player-stats">
+                            <div class="stat">
+                                <span class="stat-label">Matches:</span>
+                                <span class="stat-value">28</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Runs:</span>
+                                <span class="stat-value">1,675</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Average:</span>
+                                <span class="stat-value">55.83</span>
+                            </div>
+                        </div>
+                        <p class="player-bio">Inspiring captain who leads by example. Former India U-19 player bringing professional experience to the team.</p>
+                    </div>
+                </div>
+
+                <div class="player-card" data-team="women">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Sarah Martinez" loading="lazy">
+                    </div>
+                    <div class="player-info">
+                        <h3>Sarah Martinez</h3>
+                        <div class="player-role">Spin Bowler</div>
+                        <div class="player-stats">
+                            <div class="stat">
+                                <span class="stat-label">Matches:</span>
+                                <span class="stat-value">25</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Wickets:</span>
+                                <span class="stat-value">42</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Average:</span>
+                                <span class="stat-value">16.78</span>
+                            </div>
+                        </div>
+                        <p class="player-bio">Crafty spinner with excellent control. Certified youth coach helping develop the next generation.</p>
+                    </div>
+                </div>
+
+                <!-- Youth Team Players -->
+                <div class="player-card" data-team="youth">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Kevin Thompson" loading="lazy">
+                    </div>
+                    <div class="player-info">
+                        <h3>Kevin Thompson</h3>
+                        <div class="player-role">Youth Captain / Batsman</div>
+                        <div class="player-stats">
+                            <div class="stat">
+                                <span class="stat-label">Age:</span>
+                                <span class="stat-value">16</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Matches:</span>
+                                <span class="stat-value">22</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Runs:</span>
+                                <span class="stat-value">890</span>
+                            </div>
+                        </div>
+                        <p class="player-bio">Promising young talent with natural batting ability. Future prospect for the senior team.</p>
+                    </div>
+                </div>
+
+                <div class="player-card" data-team="youth">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Arjun Patel" loading="lazy">
+                    </div>
+                    <div class="player-info">
+                        <h3>Arjun Patel</h3>
+                        <div class="player-role">Fast Bowler</div>
+                        <div class="player-stats">
+                            <div class="stat">
+                                <span class="stat-label">Age:</span>
+                                <span class="stat-value">15</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Matches:</span>
+                                <span class="stat-value">18</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Wickets:</span>
+                                <span class="stat-value">35</span>
+                            </div>
+                        </div>
+                        <p class="player-bio">Exciting young fast bowler with raw pace. Part of the Texas state youth development program.</p>
+                    </div>
+                </div>
+
+                <!-- Junior Team Players -->
+                <div class="player-card" data-team="junior">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Emma Wilson" loading="lazy">
+                    </div>
+                    <div class="player-info">
+                        <h3>Emma Wilson</h3>
+                        <div class="player-role">Junior Captain</div>
+                        <div class="player-stats">
+                            <div class="stat">
+                                <span class="stat-label">Age:</span>
+                                <span class="stat-value">11</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Matches:</span>
+                                <span class="stat-value">15</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Runs:</span>
+                                <span class="stat-value">245</span>
+                            </div>
+                        </div>
+                        <p class="player-bio">Natural leader with excellent cricket sense. Shows great potential for future development.</p>
+                    </div>
+                </div>
+
+                <div class="player-card" data-team="junior">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Jake Smith" loading="lazy">
+                    </div>
+                    <div class="player-info">
+                        <h3>Jake Smith</h3>
+                        <div class="player-role">All-Rounder</div>
+                        <div class="player-stats">
+                            <div class="stat">
+                                <span class="stat-label">Age:</span>
+                                <span class="stat-value">10</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Matches:</span>
+                                <span class="stat-value">12</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Runs:</span>
+                                <span class="stat-value">180</span>
+                            </div>
+                        </div>
+                        <p class="player-bio">Enthusiastic young player who loves every aspect of the game. Great team spirit.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coaching Staff -->
+            <section class="coaching-staff">
+                <h2>Coaching Staff</h2>
+                <div class="coaches-grid">
+                    <div class="coach-card">
+                        <div class="coach-image">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Michael Thompson" loading="lazy">
+                        </div>
+                        <div class="coach-info">
+                            <h3>Michael Thompson</h3>
+                            <div class="coach-role">Head Coach</div>
+                            <p>Former Texas State player with 15 years of coaching experience. Specializes in team strategy and player development.</p>
+                        </div>
+                    </div>
+
+                    <div class="coach-card">
+                        <div class="coach-image">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616c04ba8fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Priya Sharma" loading="lazy">
+                        </div>
+                        <div class="coach-info">
+                            <h3>Priya Sharma</h3>
+                            <div class="coach-role">Batting Coach</div>
+                            <p>Former India U-19 player. Expert in batting techniques and mental conditioning for pressure situations.</p>
+                        </div>
+                    </div>
+
+                    <div class="coach-card">
+                        <div class="coach-image">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="James Wilson" loading="lazy">
+                        </div>
+                        <div class="coach-info">
+                            <h3>James Wilson</h3>
+                            <div class="coach-role">Bowling Coach</div>
+                            <p>Former county cricket player from England. Specializes in pace and spin bowling techniques.</p>
+                        </div>
+                    </div>
+
+                    <div class="coach-card">
+                        <div class="coach-image">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Sarah Martinez" loading="lazy">
+                        </div>
+                        <div class="coach-info">
+                            <h3>Sarah Martinez</h3>
+                            <div class="coach-role">Youth Development Coach</div>
+                            <p>Certified youth development specialist focusing on fundamental skills and character building.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Wylie Cricket Club</h3>
+                    <p>Building cricket excellence in Wylie, Texas since 2015.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="news.html">Latest News</a></li>
+                        <li><a href="schedule.html">Match Schedule</a></li>
+                        <li><a href="players.html">Players</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📧 info@wyliecricketclub.com</p>
+                    <p>📞 (972) 555-0123</p>
+                    <p>📍 Wylie Cricket Ground<br>123 Sports Lane, Wylie, TX 75098</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wylie Cricket Club. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Player filtering functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const playerCards = document.querySelectorAll('.player-card');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const targetTeam = this.getAttribute('data-team');
+
+                    // Update active button
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+
+                    // Filter players
+                    playerCards.forEach(card => {
+                        if (targetTeam === 'all' || card.getAttribute('data-team') === targetTeam) {
+                            card.style.display = 'block';
+                            card.classList.add('fade-in');
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+    <style>
+        .team-filter {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: #f8f9fa;
+            border: 2px solid #ddd;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: #4CAF50;
+            color: white;
+            border-color: #4CAF50;
+        }
+
+        .players-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .player-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .player-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .player-image {
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .player-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .player-card:hover .player-image img {
+            transform: scale(1.05);
+        }
+
+        .player-info {
+            padding: 1.5rem;
+        }
+
+        .player-info h3 {
+            color: #1a4d2e;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            font-size: 1.3rem;
+        }
+
+        .player-role {
+            color: #4CAF50;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        .player-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-label {
+            display: block;
+            font-size: 0.8rem;
+            color: #666;
+            margin-bottom: 0.25rem;
+        }
+
+        .stat-value {
+            display: block;
+            font-weight: 600;
+            color: #1a4d2e;
+            font-size: 1.1rem;
+        }
+
+        .player-bio {
+            color: #666;
+            line-height: 1.6;
+            font-size: 0.95rem;
+        }
+
+        .coaching-staff {
+            margin-top: 4rem;
+        }
+
+        .coaching-staff h2 {
+            text-align: center;
+            color: #1a4d2e;
+            margin-bottom: 3rem;
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+
+        .coaches-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .coach-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .coach-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .coach-image {
+            height: 180px;
+            overflow: hidden;
+        }
+
+        .coach-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .coach-info {
+            padding: 1.5rem;
+        }
+
+        .coach-info h3 {
+            color: #1a4d2e;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .coach-role {
+            color: #4CAF50;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        .coach-info p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        @media screen and (max-width: 768px) {
+            .team-filter {
+                justify-content: center;
+            }
+
+            .filter-btn {
+                padding: 8px 16px;
+                font-size: 0.9rem;
+            }
+
+            .players-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .player-stats {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+            }
+
+            .coaches-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>
