@@ -21,7 +21,6 @@ include:
   - "_pages"
   - "css"
   - "js"
-  - "images"
 
 exclude:
   - "README.md"
