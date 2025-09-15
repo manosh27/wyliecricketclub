@@ -6,10 +6,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# Site settings for SEO
+# Site settings for SEO  
 title: "Wylie Cricket Club"
 description: "Premier cricket club in Wylie, Texas. Join us for matches, training, and community cricket activities."
-url: "https://wyliecricketclub.com"
+url: "" # Will be set automatically by GitHub Pages
 baseurl: ""
 
 # SEO and metadata
