@@ -1,6 +1,10 @@
 # Wylie Cricket Club Website
 
+[![Deploy to GitHub Pages](https://github.com/manosh27/wyliecricketclub/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/manosh27/wyliecricketclub/actions/workflows/deploy-pages.yml)
+
 A complete website for Wylie Cricket Club featuring modern design, responsive layout, and comprehensive cricket club functionality.
+
+🌐 **Live Website**: [wyliecricketclub.com](https://wyliecricketclub.com) (hosted on GitHub Pages)
 
 ## 🏏 Features
 
@@ -36,9 +40,27 @@ A complete website for Wylie Cricket Club featuring modern design, responsive la
 └── images/             # Image assets directory
 ```
 
-## 🚀 Deployment
+## 🚀 GitHub Pages Deployment
 
-### For wyliecricketclub.com Domain
+This website is automatically deployed to GitHub Pages using GitHub Actions. 
+
+**Live URL**: [wyliecricketclub.com](https://wyliecricketclub.com)
+
+### Automatic Deployment
+- ✅ Automatic deployment on every push to `main` branch
+- ✅ Custom domain configured (wyliecricketclub.com)
+- ✅ SSL certificate provided by GitHub Pages
+- ✅ CDN distribution for fast global access
+
+### Manual Deployment
+You can also trigger deployment manually:
+1. Go to the [Actions tab](https://github.com/manosh27/wyliecricketclub/actions)
+2. Select "Deploy to GitHub Pages" workflow
+3. Click "Run workflow"
+
+## 🛠️ Alternative Deployment Options
+
+### For wyliecricketclub.com Domain (Alternative Hosting)
 
 1. **Static Hosting Options**:
    - GitHub Pages

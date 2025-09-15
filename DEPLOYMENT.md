@@ -1,5 +1,27 @@
 # Deployment Instructions for wyliecricketclub.com
 
+## 🚀 Current Deployment: GitHub Pages (ACTIVE)
+
+**Live Website**: [wyliecricketclub.com](https://wyliecricketclub.com)
+
+The website is currently deployed using GitHub Pages with automated deployment via GitHub Actions.
+
+### ✅ What's Already Configured:
+- Custom domain: `wyliecricketclub.com`
+- Automatic SSL certificate
+- GitHub Actions workflow for auto-deployment
+- CDN distribution for global performance
+
+### 🔧 GitHub Pages Configuration Complete:
+1. ✅ Repository Settings > Pages configured
+2. ✅ Source: GitHub Actions workflow
+3. ✅ Custom domain configured with CNAME file
+4. ✅ Automatic deployment on main branch updates
+
+---
+
+## Alternative Hosting Options
+
 ## Option 1: GitHub Pages (Recommended for simplicity)
 
 1. **Enable GitHub Pages**:
