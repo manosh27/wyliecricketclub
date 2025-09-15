@@ -1,9 +1,9 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes targeting the current branch
   push:
-    branches: ["main"]
+    branches: ["copilot/fix-fe3c7478-977e-4f6d-8e2f-0309e50958a1"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
