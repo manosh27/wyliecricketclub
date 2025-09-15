@@ -1,10 +1,14 @@
 # Wylie Cricket Club Website
 
-[![Deploy to GitHub Pages](https://github.com/manosh27/wyliecricketclub/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/manosh27/wyliecricketclub/actions/workflows/deploy-pages.yml)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/manosh27/wyliecricketclub) [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/manosh27/wyliecricketclub) [![Deploy to GitHub Pages](https://github.com/manosh27/wyliecricketclub/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/manosh27/wyliecricketclub/actions/workflows/deploy-pages.yml)
 
 A complete website for Wylie Cricket Club featuring modern design, responsive layout, and comprehensive cricket club functionality.
 
-🌐 **Live Website**: [wyliecricketclub.com](https://wyliecricketclub.com) (hosted on GitHub Pages)
+## 🚀 **Quick Deploy** 
+**Click any button above to deploy instantly!**
+
+🌐 **Target Domain**: [wyliecricketclub.com](https://wyliecricketclub.com)  
+📖 **[Quick Deploy Guide](QUICK_DEPLOY.md)** - Step-by-step deployment instructions
 
 ## 🏏 Features
 
@@ -40,52 +44,32 @@ A complete website for Wylie Cricket Club featuring modern design, responsive la
 └── images/             # Image assets directory
 ```
 
-## 🚀 GitHub Pages Deployment
+## 🚀 Deployment Options
 
-This website is automatically deployed to GitHub Pages using GitHub Actions. 
+### ⚡ Instant Deploy (Recommended)
 
-**Live URL**: [wyliecricketclub.com](https://wyliecricketclub.com)
+**Netlify (Best for Private Repos)**
+- Click: [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/manosh27/wyliecricketclub)
+- Live in 2 minutes at: `https://[name].netlify.app`
 
-### Automatic Deployment
-- ✅ Automatic deployment on every push to `main` branch
-- ✅ Custom domain configured (wyliecricketclub.com)
-- ✅ SSL certificate provided by GitHub Pages
-- ✅ CDN distribution for fast global access
+**Vercel (Great Performance)**  
+- Click: [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/manosh27/wyliecricketclub)
+- Live in 2 minutes at: `https://[name].vercel.app`
 
-### Manual Deployment
-You can also trigger deployment manually:
-1. Go to the [Actions tab](https://github.com/manosh27/wyliecricketclub/actions)
-2. Select "Deploy to GitHub Pages" workflow
-3. Click "Run workflow"
+**GitHub Pages (Public Repos Only)**
+- Enable in Repository Settings > Pages > Source: GitHub Actions
+- Live at: `https://manosh27.github.io/wyliecricketclub`
 
-## 🛠️ Alternative Deployment Options
+### 📋 Complete Setup Guide
+See **[QUICK_DEPLOY.md](QUICK_DEPLOY.md)** for detailed instructions
 
-### For wyliecricketclub.com Domain (Alternative Hosting)
-
-1. **Static Hosting Options**:
-   - GitHub Pages
-   - Netlify
-   - Vercel
-   - AWS S3 + CloudFront
-
-2. **Domain Configuration**:
-   - Point domain to hosting provider
-   - Configure SSL certificate
-   - Set up redirects if needed
-
-### Quick Deploy with Netlify
-
-1. Connect GitHub repository to Netlify
-2. Set build command: `# No build required - static site`
-3. Set publish directory: `./`
-4. Configure custom domain: `wyliecricketclub.com`
-
-### Quick Deploy with GitHub Pages
-
-1. Go to repository Settings > Pages
-2. Select source: Deploy from a branch
-3. Choose branch: `main` or deployment branch
-4. Configure custom domain
+### ✅ Ready-to-Deploy Features
+- 🔧 **Zero configuration needed** - all config files included
+- 🔒 **Security headers** configured  
+- ⚡ **Performance optimized** with caching
+- 🌐 **Custom domain ready** (wyliecricketclub.com)
+- 📱 **Mobile responsive** design
+- 🔍 **SEO optimized** with meta tags
 
 ## 🛠️ Local Development
 
