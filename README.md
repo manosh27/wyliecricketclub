@@ -1,8 +1,29 @@
 # Wylie Cricket Club Website
 
+🚀 **DEPLOYMENT STATUS**: Ready for GitHub Pages! 
+
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/manosh27/wyliecricketclub) [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/manosh27/wyliecricketclub) [![Deploy to GitHub Pages](https://github.com/manosh27/wyliecricketclub/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/manosh27/wyliecricketclub/actions/workflows/deploy-pages.yml)
 
 A complete website for Wylie Cricket Club featuring modern design, responsive layout, and comprehensive cricket club functionality.
+
+## ⚡ GitHub Pages Deployment (Ready!)
+
+**Current Status**: All files configured, workflow optimized, ready for Pages activation.
+
+### To Enable GitHub Pages:
+1. Go to **Repository Settings** → **Pages** 
+2. Under **Source**, select **"GitHub Actions"**
+3. The deployment will trigger automatically!
+
+**Expected URLs after activation**:
+- 🌐 **GitHub Pages**: https://manosh27.github.io/wyliecricketclub
+- 🏏 **Custom Domain**: https://wyliecricketclub.com (requires DNS setup)
+
+### Changes Made:
+- ✅ Fixed GitHub Actions workflow configuration  
+- ✅ Optimized Jekyll settings for GitHub Pages
+- ✅ Added build verification steps
+- ✅ Verified all website files and structure
 
 ## 🚀 **Quick Deploy** 
 **Click any button above to deploy instantly!**

@@ -30,8 +30,14 @@ jobs:
       
       - name: Setup Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
+      
+      - name: Verify website structure
+        run: |
+          echo "Verifying website files..."
+          ls -la
+          test -f index.html || (echo "Error: index.html not found" && exit 1)
+          test -d css || (echo "Error: css directory not found" && exit 1)
+          echo "Website structure verified ✓"
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
